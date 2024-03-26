@@ -1,129 +1,50 @@
-<h1 align="center">
-    <a href="#"> Food Explorer </a>
-</h1>
+# Food Explorer - Cardápio Digital
 
-<p align="center"> Seu Cardápio digital.. </p>
+## Sobre
 
-<h4 align="center"> 
-	 Status: Em desenvolvimento...
-</h4>
-
-<p align="center">
- <a href="#-about">About</a> •
- <a href="#-Features">Features</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-tech-stack">Tech Stack</a> • 
- <a href="#-author">Author</a> • 
- <a href="#-license">License</a>
-
-</p>
-
-## 💻 Sobre:
-
-O aplicativo que desenvolveremos é um cardápio digital para um restaurante fictício, conhecido como foodExplorer.
-Neste desafio foram abordados os seguintes temas:
-
-- React;
-- Routes;
-- components;
-- Props;
-- hooks;
-- context;
----
+O Food Explorer é um projeto de cardápio digital para um restaurante fictício. Ele permite aos clientes explorar os pratos oferecidos, fazer buscas específicas, ver detalhes dos pratos e muito mais. Este projeto está em desenvolvimento e aborda diversos temas importantes como React, rotas, componentes, props, hooks, context, entre outros.
 
 ## Funcionalidades
 
-- [x] Um projeto estruturado, com uma boa organização das pastas, divisão de componentes no front-end, etc;
-- [x] Os dados do admin, do restaurante e dos usuários serão armazenados em um banco de dados;
-- [x] Os usuários deverão se autenticar para entrar na aplicação através da tela de login;
-- [x] Dê nomes significativos para as suas funções e variáveis: trabalhe um pouco com os conceitos do Clean Code;
-- [x] Possibilidade de fazer uma busca pelo nome do prato, pelos ingredientes ou por prato favorito;
-- [x] O admin irá fazer upload de imagens para cadastrar e editar tanto os pratos quanto os ingredientes;
-- [x] Interessante deixar a aplicação responsiva: utilize o conceito de Mobile First que foi aprendido em aula;
-- [x] Deixe o código mais acessível e semântico usando as dicas que foram passadas em aula;
-- [x] Fica a seu critério onde aplicar animações, transições e transformações;
-- [x] É essencial que a sua interface consuma a sua API;
-- [x] Para finalizar, faça o deploy da sua aplicação.
+- Estrutura organizada do projeto com divisão de componentes no front-end.
+- Autenticação de usuários para acesso à aplicação.
+- Possibilidade de busca por nome do prato, ingredientes ou prato favorito.
+- Upload de imagens para cadastrar e editar pratos e ingredientes.
+- Interface responsiva para melhor experiência em dispositivos móveis.
+- Integração da interface com a API para acesso aos dados.
 
----
+## Layout
 
-## 🎨 Layout
+O layout da aplicação está disponível no Figma para visualização e referência.
 
-O layout da aplicação está disponível no Figma:
+[🔗 Acesse ](https://www.figma.com/file/T556wG2pmTOww8XKZMD9Jd/food-explorer-v2-(Community)?type=design&node-id=201%3A1532&mode=design&t=leVrOOnW63WkHjJk-1)
 
-<a href="https://www.figma.com/file/GkqG5AUJe3ppcUEHfvOX6z/food-explorer?node-id=0%3A1">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
+## Como Executar o Projeto
 
-
-
-
-## 🚀 Como executar o projeto.
-
-Este projeto é divido em duas partes:
-1. Backend (API) 
-2. Frontend 
-
-💡O Backend deve estar rodando em sua máquina para que o frontend seja reenderizado.
-)
+Este projeto é dividido em duas partes: Backend (API) e Frontend.
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+- Git
+- Node.js
+- Editor de código (VSCode recomendado)
 
-### 🎲 Rodando o Back End (servidor)
+### Backend
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/LidianeDiniz/API_Food_Explorer.git
+1. Clone o repositório do backend.
+2. Acesse a pasta do projeto no terminal.
+3. Instale as dependências com `npm install`.
+4. Execute as migrações e seeds com `npm migrate` e `npm seed`.
+5. Execute a aplicação em modo de desenvolvimento com `npm run dev`.
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd + sua pasta + git clone https://github.com/LidianeDiniz/API_Food_Explorer.git
+### Frontend
 
-# Instale as dependências
-$ npm install
+1. Clone o repositório do frontend.
+2. Acesse a pasta do projeto no terminal.
+3. Instale as dependências com `npm install`.
+4. Rode a aplicação em modo de desenvolvimento com `npm run dev`.
 
-# Execute as migration e seed
-$ npm migrate
-$ npm seed
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
-
-# Login do admin
-$ email: admin@email.com
-$ password: 112233
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
-```
-
-
-#### 🎲 Rodando a aplicação (Frontend)
-
-```bash
-
-# Clone este repositório
-$ https://github.com/LidianeDiniz/Frontend_foodExplorer.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd + sua pasta + git clone https://github.com/LidianeDiniz/Frontend_foodExplorer.git
-
-
-# Instale as dependências com:
-$ npm install
-
-# Rode a aplicação em modo de desenvolvimento:
-$ npm run dev
-
-# O servidor inciará na porta:3333 - acesse <   http://127.0.0.1:5173/ >
-```
----
-
-## 🛠 Tecnologias
-
-Este projeto foi desenvolvido com as seguintes tecnologias:
+## Tecnologias Utilizadas
 
 - HTML
 - CSS
@@ -131,27 +52,14 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Node.js
 - React.js
 
----
+## Deploy do Projeto
 
+O projeto está disponível para visualização no seguinte link:
 
-## 💻 Sobre:
-
-O aplicativo que desenvolveremos é um cardápio digital para um restaurante fictício, conhecido como foodExplorer.
-Neste desafio foram abordados os seguintes temas:
-
-
-
----
-## Deploy do projeto.
-https://food-explorer-lidiane-diniz.netlify.app/
-
+[🔗 Acesse ](https://lucaslopes-food-explorer.netlify.app)
 
 ---
 
-## 📝 License
-
-This project is under the license [MIT](./LICENSE).
-
-Made with ❤️ by Lidiane Diniz  [Get in Touch!](https://www.linkedin.com/in/lidiane-cristina-diniz)
+By Lucas Lopes.
 
 ---
